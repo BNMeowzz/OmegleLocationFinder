@@ -22,7 +22,7 @@ return socialcodia
 
 function fetchLocation(ip)
 {
-	fetch('https://ipinfo.io/'+ip+'?token=yourtoken')
+	fetch('https://ipinfo.io/'+ip+'?token=f175212515d54e')
 	.then( res => res.json() )
 	.then(response => {
 		console.log("Country :"+response.country)
